@@ -12,7 +12,21 @@ void main() {
   String morning = "Morgen";
   String S = "Heute";
   String spa = " ";
+
+  int num = a * seven;
+  print(num);
+
+  var toDay = S + spa + morning;
+  print(toDay);
+
+  int sum = b + twelve - 1;
+  print(sum);
+
   String helloWorld = gdStr + spa + dayStr + spa + worldStr;
   print(helloWorld);
+
+  String goodTime = c + spa + timeStr;
+  print(goodTime);
+
   print(gdStr + " " + dayStr);
 }
