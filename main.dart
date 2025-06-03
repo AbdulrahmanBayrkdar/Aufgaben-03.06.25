@@ -29,4 +29,9 @@ void main() {
   print(goodTime);
 
   print(gdStr + " " + dayStr);
+
+  double number = 42.13;
+  double anotherNumber = 13.12;
+  number = anotherNumber;
+  print(number);
 }
