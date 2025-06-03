@@ -2,7 +2,7 @@ void main() {
   String gdStr = "Guten";
   String dayStr = "Tag";
   String worldStr = "Welt";
-  int d = 20;
+  int b = 20;
   String timeStr = "Zeit";
   int seven = 7;
   int twelve = 12;
@@ -12,6 +12,7 @@ void main() {
   String morning = "Morgen";
   String S = "Heute";
   String spa = " ";
-
+  String helloWorld = gdStr + spa + dayStr + spa + worldStr;
+  print(helloWorld);
   print(gdStr + " " + dayStr);
 }
